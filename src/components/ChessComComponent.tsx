@@ -342,9 +342,9 @@ interface ChessStats {
   puzzle_rush?: PuzzleRushStats;
 }
 
-type ValueField = { label: string; value: string };
-type RecordField = { label: string; record: true };
-type Field = ValueField | RecordField;
+// type ValueField = { label: string; value: string };
+// type RecordField = { label: string; record: true };
+// type Field = ValueField | RecordField;
 
 export default function ChessComComponent({
   defaultUser = "",
